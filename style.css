@@ -47,6 +47,9 @@ nav a:hover {
 
 .nav-bar{
     padding: 1.5rem 7rem 1.5rem 7rem;
+    position: fixed;
+    background-color: #2d3436;
+    z-index: 100;
 }
 header span{
     color: white;
@@ -85,6 +88,7 @@ header span{
     background-color: #747d8c;
     height: 22rem;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
 .card:hover{
